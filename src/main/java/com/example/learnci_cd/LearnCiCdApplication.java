@@ -14,7 +14,7 @@ public class LearnCiCdApplication {
 }
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api" )
 class ApiController {
     @GetMapping("/hello")
     public String hello() {
