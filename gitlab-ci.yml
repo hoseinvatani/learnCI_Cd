@@ -1,0 +1,28 @@
+stages:
+  - build
+  - test
+  - deploy
+
+variables:
+  MAVEN_CLI_OPTS: "-s .mvn/settings.xml --batch-mode"
+
+default:
+  image: maven:3.8.5-openjdk-17
+
+build:
+  stage: build
+  script:
+    - mvn $MAVEN_CLI_OPTS clean package -DskipTests
+  artifacts:
+    paths:
+      - target/demo-0.0.1-SNAPSHOT.jar
+
+test:
+  stage: test
+  script:
+    - mvn $MAVEN_CLI_OPTS test
+
+deploy:
+  stage: deploy
+  script:
+    - echo "Deploying application..."
