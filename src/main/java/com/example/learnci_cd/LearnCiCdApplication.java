@@ -13,6 +13,7 @@ public class LearnCiCdApplication {
     }
 }
 
+
 @RestController
 @RequestMapping("/api")
 class ApiController {
