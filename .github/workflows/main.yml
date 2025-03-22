@@ -26,3 +26,6 @@ jobs:
 
       - name: Run tests
         run: mvn test
+
+      - name: Run Docker container
+        run: docker run -d -p 8080:8080 learnci_cd
