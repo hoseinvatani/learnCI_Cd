@@ -27,5 +27,11 @@ jobs:
       - name: Run tests
         run: mvn test
 
-      - name: Run Docker container
-        run: docker run -d -p 8080:8080 learnci_cd
+#      - name: Log in to Docker Hub
+#        run: echo "${{ secrets.DOCKER_HUB_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_HUB_USERNAME }}" --password-stdin
+#
+#      - name: Pull Docker image
+#        run: docker pull YOUR_DOCKERHUB_USERNAME/learnci_cd:latest
+#
+#      - name: Run Docker container
+#        run: docker run -d -p 8080:8080 YOUR_DOCKERHUB_USERNAME/learnci_cd:latest
