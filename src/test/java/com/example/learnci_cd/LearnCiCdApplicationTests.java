@@ -16,6 +16,7 @@ class LearnCiCdApplicationTests {
 
     @Test
     void contextLoads() {
+
     }
 
     @Test
