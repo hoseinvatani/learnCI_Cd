@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "standard-version"
+    "release": "standard-version",
+    "commit": "cz"
+
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/hoseinvatani/learnCI_Cd/issues"
   },
-  "homepage": "https://github.com/hoseinvatani/learnCI_Cd#readme"
+  "homepage": "https://github.com/hoseinvatani/learnCI_Cd#readme",
+  "devDependencies": {
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
