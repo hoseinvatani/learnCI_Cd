@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.1](https://github.com/hoseinvatani/learnCI_Cd/compare/v1.4.0...v1.4.1) (2025-07-20)
+
+
+### Bug Fixes
+
+* changeFile ([9e4d933](https://github.com/hoseinvatani/learnCI_Cd/commit/9e4d93351e20ba795e9c2d9f62c165633b9dead6))
+
 ## [1.4.0](https://github.com/hoseinvatani/learnCI_Cd/compare/v1.3.10...v1.4.0) (2025-07-20)
 
 
