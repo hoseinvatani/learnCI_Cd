@@ -12,8 +12,6 @@ public class LearnCiCdApplication {
         SpringApplication.run(LearnCiCdApplication.class, args);
     }
 }
-
-
 @RestController
 @RequestMapping("/api")
 class ApiController {
