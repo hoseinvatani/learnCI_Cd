@@ -1,5 +1,7 @@
 #!/bin/bash
 
+npx standard-version
+
 # گرفتن نسخه از package.json
 VERSION=$(node -p "require('./package.json').version")
 
