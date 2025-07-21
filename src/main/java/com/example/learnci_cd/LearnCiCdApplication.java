@@ -18,6 +18,5 @@ class ApiController {
     @GetMapping("/hello")
     public String hello() {
         return "Hello, GitLab CI/CD!";
-
     }
 }
