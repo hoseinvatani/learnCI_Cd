@@ -19,4 +19,7 @@ class ApiController {
     public String hello() {
         return "Hello, GitLab CI/CD!";
     }
+
+
+
 }
